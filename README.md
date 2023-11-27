@@ -13,3 +13,6 @@ where all the images are made by only 1 artist. And hence we will make an encode
 
 
 (!Disclamer- All the data used in this project is only for acadmic purposes and I DO NOT own any of the data!!)
+
+
+&#8595;

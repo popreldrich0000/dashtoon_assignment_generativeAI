@@ -25,24 +25,13 @@ I implemented scraping.py script for scraping the data from the site (https://ww
 And this is the structure of the data directory:
 
 Data_raw
-
 |
-
 |_chapter1
-
 |
-
 |_chapter2
 ..
-
+..
 ..
 
-..
-
-..
-
-..
-
-..
 
 

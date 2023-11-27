@@ -14,14 +14,8 @@ where all the images are made by only 1 artist. And hence we will make an encode
 
 (!Disclamer- All the data used in this project is only for acadmic purposes and I DO NOT own any of the data!!)
 
-                    Data scraping 
-               
-                      
-                      &#8595;
-
-                      
-              Preprocessing and data cleaning
-
-                      &#8595;
-
-              Training the style images to extract the data
+Data scraping                
+&#8595;
+Preprocessing and data cleaning
+&#8595;
+Training the style images to extract the Features from them

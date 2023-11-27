@@ -4,11 +4,13 @@ https://arxiv.org/pdf/1602.07188.pdf
 This was the original Paper that Introduced Neural Style Learning
 I did not entirely copy the paper but introduced some new changes according to the subtleties required by the assignment. 
 
-We first started the assignment by Web scraping and then processing it further for our use.
+
+**Summary**
+I first started the assignment by Web scraping and then processing it further for our use.
+I Scraped the data from  https://www.mangageko.com/manga/her-summon/
+where all the images are made by only 1 artist. And hence I will make an encoder-decoder type CNN for extracting the *style* of the images drawn by the given artist. 
 
 
-We Scraped the data from  https://www.mangageko.com/reader/en/her-summon-chapter-1--eng-li/
-where all the images are made by only 1 artist. And hence we will make an encoder-decoder type CNN for extracting the "style" of the images drawn by the given artist. 
 
 
 
@@ -17,4 +19,30 @@ where all the images are made by only 1 artist. And hence we will make an encode
 Data scraping  ⮕  Preprocessing and data cleaning ⮕ Training the style images to extract the Features from them
 
 
-**Data scraping **
+**Data scraping**
+I implemented scraping.py script for scraping the data from the site (https://www.mangageko.com/manga/her-summon/). The script automatically Navigates form one Chapter to the next and downloads next 117 chapers and saves them in their respective folders(i.e. chapter1, chapter2 etc)  according to their chapters. 
+
+And this is the structure of the data directory:
+
+Data_raw
+
+|
+
+|_chapter1
+
+|
+
+|_chapter2
+..
+
+..
+
+..
+
+..
+
+..
+
+..
+
+

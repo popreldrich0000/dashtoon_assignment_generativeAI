@@ -20,6 +20,7 @@ Data scraping  ⮕  Preprocessing and data cleaning ⮕ Training the style image
 
 
 **Data scraping**
+
 I implemented scraping.py script for scraping the data from the site (https://www.mangageko.com/manga/her-summon/). The script automatically Navigates form one Chapter to the next and downloads next 117 chapers and saves them in their respective folders(i.e. chapter1, chapter2 etc)  according to their chapters. 
 
 And this is the structure of the data directory:
@@ -32,6 +33,10 @@ Data_raw<br>
 ..<br>
 ..<br>
 ..<br>
+
+**Preprocessing and data cleaning**
+
+
 
 
 

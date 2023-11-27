@@ -17,7 +17,9 @@ where all the images are made by only 1 artist. And hence we will make an encode
 Data scraping    
 
 ⬇
+
 Preprocessing and data cleaning
 
 ⬇
+
 Training the style images to extract the Features from them

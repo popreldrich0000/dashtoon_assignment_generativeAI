@@ -36,6 +36,6 @@ raw_data<br>
 small_cropped_images - after processing some very small dimension images will be here these are to be ignored (inititally this will be empty)
 
 
-white_images - images with more than 50% white space will be here 
+white_images - images with more than 50% white space will be here ( initially empty)
 
 

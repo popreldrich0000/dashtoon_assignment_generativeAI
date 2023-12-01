@@ -33,9 +33,13 @@ raw_data<br>
 ..<br>
 
 
-small_cropped_images - after processing some very small dimension images will be here these are to be ignored (inititally this will be empty)
+small_cropped_images - after processing some very small dimension images will be here, these are to be ignored (inititally this will be empty)
 
 
-white_images - images with more than 50% white space will be here ( initially empty)
+white_images - images with more than 50% white space will be here  these are to be ignored( initially empty)
+
+
+If the images data is small we can furthur manually go through images in small_cropped_images
+and white_images folder and find the few useful ones 
 
 

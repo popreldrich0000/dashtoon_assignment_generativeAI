@@ -1,5 +1,10 @@
-Here first run **dire.sh** in the termninal by the command
-./dir.sh 
+Here first run **dir.sh** in the termninal by the commands
+
+
+chmod +x dir.sh  - Giving necessary permissions
+
+
+./dir.sh - running bash script
 
 
 it willl create the appropriate directories required for the preprocessing:
@@ -36,10 +41,21 @@ raw_data<br>
 small_cropped_images - after processing some very small dimension images will be here, these are to be ignored (inititally this will be empty)
 
 
+
 white_images - images with more than 50% white space will be here  these are to be ignored( initially empty)
 
 
 If the images data is small we can furthur manually go through images in small_cropped_images
 and white_images folder and find the few useful ones 
+
+
+
+then run **run.sh**
+
+chmod +x run.sh  - Giving necessary permissions
+
+
+./run.sh - running bash script
+
 
 

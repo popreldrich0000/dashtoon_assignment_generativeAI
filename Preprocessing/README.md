@@ -1,4 +1,4 @@
-Here first run **dir.sh** in the termninal by the command
+Here first run **dire.sh** in the termninal by the command
 ./dir.sh 
 
 

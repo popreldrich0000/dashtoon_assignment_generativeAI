@@ -52,10 +52,14 @@ and white_images folder and find the few useful ones
 
 then run **run.sh**
 
+
 chmod +x run.sh  - Giving necessary permissions
 
 
 ./run.sh - running bash script
 
 
+
+run correcting_size_ratio.py for resizing the images  to 400x400
+This process can also be done using transforms from pytorch but here we are also taking care of the rectangular images by cropping them.
 

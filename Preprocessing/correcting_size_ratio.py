@@ -13,7 +13,7 @@ def check_white(image):
         wt = np.sum(gray > white_threshold) > (gray.shape[0]*gray.shape[1])/2
         return wt
         
-image_dir_path = "/media/eldrich-rikaze/New Volume/Style_transfer_assignment/Scratch__NN/final_data/"
+image_dir_path = "/media/eldrich-rikaze/New Volume/Style_transfer_assignment/Scratch__NN/data_final/"
 img_name_list = get_images_name_list(image_dir_path)
 final_dir = "/media/eldrich-rikaze/New Volume/Style_transfer_assignment/Scratch__NN/resized_images"
 

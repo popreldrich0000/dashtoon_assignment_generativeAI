@@ -38,5 +38,8 @@ Data_raw<br>
 
 Discussed in preprocessing README.md file in Preprocessing folder
 
+In this assignmnet we will be using Autoencoders type of neural network for traing the style images where the input image size will be 400x400 pixels. 
+
+We will have an encoder and then decoder in our design, and we will train our images by the given artist on this model so that it learns the basic structure, layout , Color distribution and texture of the image by the artist.
 
 
